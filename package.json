@@ -1,0 +1,32 @@
+{
+  "name": "functioneer",
+  "description": "A portable declarative functional programing library. Declare a set of functions and their arguements. Validate input and run automatically via process arguements, lamda functions and express requests. Serve results as JSON or plain text.",
+  "version": "1.0.4",
+  "homepage": "https://github.com/Cemal-Berk/functioneer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cemal-Berk/functioneer.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@types/aws-lambda": "^8.10.134",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.17",
+    "babel-jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "tsup": "^8.0.2",
+    "jest": "^29.7.0"
+  }
+}
