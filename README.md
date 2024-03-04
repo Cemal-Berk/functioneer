@@ -57,11 +57,11 @@ Functioneer includes helpers for Express and Amazon Lamda Functions:
 
 #### Express
 
-Please refer to functioneer-express
+Please refer to [functioneer-express](https://github.com/Cemal-Berk/functioneer-express)
 
-#### AWS Lamda
+#### AWS Lambda
 
-Please refer to functioneer-aws
+Please refer to [functioneer-aws](https://github.com/Cemal-Berk/functioneer-aws)
 
 ### Webassembly bridging
 
